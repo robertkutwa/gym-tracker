@@ -1,0 +1,7 @@
+*.pyc
+__pycache__
+gym.db
+Pipfile.lock
+env/
+venv/
+.virtualenv
