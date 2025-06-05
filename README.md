@@ -43,22 +43,7 @@ Built using **Python** and **SQLAlchemy ORM**, this project demonstrates best pr
 
 ## 📦 Folder Structure
 
-```
-gym-workout-tracker/
-│
-├── gym_tracker/         # Main package folder
-│   ├── __init__.py      # Makes it a Python package
-│   ├── cli.py           # Command-line interface logic
-│   ├── models.py        # SQLAlchemy ORM models
-│   └── database.py      # DB engine and session setup
-│
-├── main.py              # Entry point of the app
-├── README.md            # This file
-├── Pipfile              # Virtual environment config
-└── .gitignore           # Files/folders to ignore in Git
-```
 
----
 
 ## 🚀 Getting Started
 
