@@ -74,7 +74,7 @@ Built using **Python** and **SQLAlchemy ORM**, this project demonstrates best pr
    ```bash
    python seed.py
    ```
-   4. Run the app:
+5. Run the app:
    ```bash
    python main.py
    ```
