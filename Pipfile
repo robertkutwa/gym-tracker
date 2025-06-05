@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sqlalchemy = "*"  # Or specify a version if you have a preference
+tabulate = "*"
 
 [dev-packages]
 

@@ -1,3 +1,4 @@
+
 - Project description
 - Features
 - Installation instructions
@@ -9,7 +10,7 @@
 
 ---
 
- `README.md`
+### ✅ Final `README.md`
 
 ```markdown
 # 🏋️ Gym Workout Tracker CLI App
