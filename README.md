@@ -70,7 +70,11 @@ Built using **Python** and **SQLAlchemy ORM**, this project demonstrates best pr
    pipenv shell
    ```
 
-4. Run the app:
+4. seed in mock data:
+   ```bash
+   python seed.py
+   ```
+   4. Run the app:
    ```bash
    python main.py
    ```
