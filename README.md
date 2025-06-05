@@ -77,81 +77,65 @@ Built using **Python** and **SQLAlchemy ORM**, this project demonstrates best pr
 
 ---
 
-## 🕹️ How to Use
+<h1>🕹️ How to Use the App</h1>
+    </code></pre>
+  </details>
 
-Once the app starts, you’ll see the main menu:
-
-```
---- Gym Tracker ---
-1. List Users
-2. Add User
-3. Log Workout
-4. Log Exercise
-5. View Workouts
-6. Exit
-Choose an option:
-```
-
-### 📝 Step-by-Step Usage Example
-
-1. **Add a User**
-   - Select option `2`
-   - Enter name: `Alice`
-
-2. **Log a Workout**
-   - Choose `3`
-   - Select user ID from list
-   - Enter workout date: `2025-04-05`
-
-3. **Log an Exercise**
-   - Choose `4`
-   - Enter workout ID
-   - Provide exercise name, sets, and reps
-
-4. **View Workouts**
-   - Choose `5`
-   - Enter user ID
-   - See all workouts and related exercises
-
----
-
-## 🧪 Example Session
-
-```text
---- Gym Tracker ---
-1. List Users
-2. Add User
-3. Log Workout
-4. Log Exercise
-5. View Workouts
-6. Exit
-Choose an option: 2
-Enter user name: Alice
-User added.
-
-Choose an option: 3
-1: Alice
-Select user ID: 1
-Enter workout date (YYYY-MM-DD): 2025-04-05
-Workout logged.
-
-Choose an option: 4
-Enter workout ID: 1
-Exercise name: Push-ups
-Number of sets: 3
-Reps per set: 10
-Exercise logged.
-
+  <details>
+    <summary><strong>4. View Workouts for a User</strong></summary>
+    <pre><code>
 Choose an option: 5
 Enter user ID to view workouts: 1
 
 --- Workouts for Alice ---
 Date: 2025-04-05
  - Push-ups, 3x10
-```
+    </code></pre>
+  </details>
 
----
+  <details>
+    <summary><strong>5. Export Workouts to CSV</strong></summary>
+    <pre><code>
+Choose an option: 8
+Enter user ID to export workouts: 1
+Workouts exported to Alice_workouts.csv
+    </code></pre>
+  </details>
 
+  <details>
+    <summary><strong>6. View Summary Stats</strong></summary>
+    <pre><code>
+Choose an option: 9
+Enter user ID to view summary: 1
+
+--- Summary for Alice ---
+Total Workouts: 1
+Total Exercises: 1
+Total Sets: 3
+Total Reps: 30
+    </code></pre>
+  </details>
+
+  <details>
+    <summary><strong>7. Calendar View</strong></summary>
+    <pre><code>
+Choose an option: 11
+Enter user ID: 1
+
+Date        # of Exercises
+----------  ---------------
+2025-04-05              1
+    </code></pre>
+  </details>
+
+  <details>
+    <summary><strong>8. Clear All Users (Advanced)</strong></summary>
+    <pre><code>
+Choose an option: 6
+Are you sure? (y/n): y
+All users have been deleted.
+    </code></pre>
+  </details>
 ## 🛡️ Best Practices Demonstrated
 
 - Modular code organization
