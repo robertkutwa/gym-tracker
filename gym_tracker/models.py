@@ -1,5 +1,3 @@
-# gym_tracker/models.py
-
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from gym_tracker.database import Base
